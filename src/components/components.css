@@ -1,0 +1,9 @@
+.device-list { 
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+}
+
+.device-item {
+    width: 5px;
+}
