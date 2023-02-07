@@ -19,7 +19,7 @@ const Auth = observer(() => {
 
     const click = async () => {
         try {
-            // let data;
+            let data;
             if (isLogin) {
                 data = await login(email, password);
             } else {
