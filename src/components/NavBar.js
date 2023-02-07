@@ -14,12 +14,12 @@ import {useHistory} from 'react-router-dom'
 
 const NavBar = observer(() => {
     const {user} = useContext(Context)
-    const history = useHistory()
+    // const history = useHistory()
 
-    const logOut = () => {
-        user.setUser({})
-        user.setIsAuth(false)
-    }
+    // const logOut = () => {
+    //     user.setUser({})
+    //     user.setIsAuth(false)
+    // }
 
     return (
         <Navbar className='navbar'>

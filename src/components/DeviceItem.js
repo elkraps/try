@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, Col, Container, Row} from "react-bootstrap";
+import {Card, Col} from "react-bootstrap";
 import Image from "react-bootstrap/Image";
 import star from '../assets/star.png'
 import {useHistory} from "react-router-dom"
