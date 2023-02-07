@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import {Context} from "../index";
+// import {Context} from "../index";
 import Navbar from "react-bootstrap/Navbar";
 // import Nav from "react-bootstrap/Nav";
 import {NavLink} from "react-router-dom";
@@ -7,13 +7,13 @@ import {SHOP_ROUTE} from "../utils/consts";
 // import {Button} from "react-bootstrap";
 import {observer} from "mobx-react-lite";
 import Container from "react-bootstrap/Container";
-import {useHistory} from 'react-router-dom'
+// import {useHistory} from 'react-router-dom'
 
 
 
 
 const NavBar = observer(() => {
-    const {user} = useContext(Context)
+    // const {user} = useContext(Context)
     // const history = useHistory()
 
     // const logOut = () => {
